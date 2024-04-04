@@ -57,7 +57,7 @@ Altere a função envia_email nos arquivos conexao.php e atualiza-curriculo.php
 - Mysql
 
 ## Estrutura do banco
-Criei scripts para a criação do banco de dados para isso insira os valores para conexao com o mysql nos aquivos config.ini em seguida remova o arquivo .htaccess da parta scripts banco e com o apache e mysql em execução execite o script versionamento-banco.php exemplo:
-http://127.0.0.1/gestao%20de%20curriculos/versionamento-banco.php esse script cria´ra toda a estrutura de tabelas no banco em seguida execute o script da mesma forma query_insert_into_usuario.php esse criará um usuário para acessara  aplicação 
+Criei scripts para a criação do banco de dados para isso insira os valores para conexao com o mysql nos aquivos config.ini em seguida remova o arquivo .htaccess da pasta scripts banco e com o apache e mysql em execução execute o script versionamento-banco.php exemplo:
+http://127.0.0.1/gestao%20de%20curriculos/versionamento-banco.php esse script criará toda a estrutura de tabelas no banco de dados em seguida execute o script query_insert_into_usuario.php da mesma forma esse criará um usuário para acessara aplicação 
 ## Sugestões de modificações futuras 
 - Colocar a aplicação no modelo MVC separando o back-end do front-end
