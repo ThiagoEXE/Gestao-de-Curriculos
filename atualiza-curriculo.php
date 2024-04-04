@@ -200,7 +200,7 @@ function envia_email($nome, $email, $nome_arquivo)
 {
     //Envio de e-mail com o hash
     $hash_curriculo = explode(".", $nome_arquivo);
-    $link_de_alteracao = 'http://127.0.0.1/curriculo/pagina-de-alteracao.php?altera=' . $hash_curriculo[0];
+    $link_de_alteracao = 'http://127.0.0.1/gestao%20de%20curriculos/pagina-de-alteracao.php?altera=' . $hash_curriculo[0];
 
     $mail = new PHPMailer(true);
 
