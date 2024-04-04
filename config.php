@@ -72,7 +72,7 @@ function get_client_ip() {
 function valida_acesso(){
   $ipfull = get_client_ip();
   $ipaddress = explode(".", $ipfull);
-  $ips_liberados = array('::1','10','127.0.0.1','187.44.167.46','187.18.9.46'); // lista de IP´s Permitidos
+  $ips_liberados = array('::1','10','127.0.0.1'); // lista de IP´s Permitidos
   if( in_array($ipfull, $ips_liberados) || in_array($ipaddress[0], $ips_liberados) ){
       return True;
   }
