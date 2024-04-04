@@ -1,0 +1,1 @@
+ALTER TABLE `banco_talentos` ADD `data_nasc` DATE NULL AFTER `nome`;

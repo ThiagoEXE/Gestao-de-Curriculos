@@ -1,0 +1,20 @@
+# Ignore os arquivos de documentos
+vendor/
+/documentacao/*
+!/documentacao/html/*
+!/documentacao/html
+!/documentacao/index.php
+banco/*.pdf
+!banco/index.php
+banco/documentos/*.pdf
+!banco/documentos/index.php
+config.dev
+bancotalentos/config.dev
+*.dev
+.vscode/
+teste.php
+teste.html
+teste.pdf
+pagina-de-alteracao.php
+index.php
+bancotalentos/lista-de-funcoes.php

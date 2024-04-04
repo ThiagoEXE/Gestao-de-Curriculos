@@ -1,0 +1,22 @@
+CREATE TABLE `banco_talentos` (
+`controle` int(11) NOT NULL AUTO_INCREMENT,
+`nome` varchar(150) NOT NULL,
+`email` varchar(50) NOT NULL,
+`endereco` varchar(100) DEFAULT NULL,
+`bairro` varchar(20) NOT NULL,
+`cidade` varchar(50) DEFAULT NULL,
+`estado` varchar(2) DEFAULT NULL,
+`cep` varchar(10) DEFAULT NULL,
+`whatsapp` varchar(15) NOT NULL,
+`telefone` varchar(15) DEFAULT NULL,
+`funcao` varchar(50) NOT NULL,
+`especial` varchar(1) NOT NULL,
+`qual_necessidade` varchar(100) DEFAULT NULL,
+`tem_indicacao` varchar(1) NOT NULL,
+`quem_indicou` varchar(100) DEFAULT NULL,
+`arquivo` varchar(500) NOT NULL,
+`aceite_termo` varchar(100) NOT NULL,
+`data_inclusao` datetime DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+PRIMARY KEY (`controle`),
+UNIQUE KEY `email` (`email`)
+) ENGINE=InnoDB AUTO_INCREMENT=289 DEFAULT CHARSET=latin1;

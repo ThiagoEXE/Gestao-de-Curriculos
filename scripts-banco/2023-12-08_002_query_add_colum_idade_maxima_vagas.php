@@ -1,0 +1,1 @@
+ALTER TABLE `vagas` ADD `idade_maxima` TINYINT(150) UNSIGNED NULL AFTER `idade_minima`;

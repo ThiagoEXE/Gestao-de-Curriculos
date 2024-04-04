@@ -1,0 +1,15 @@
+{
+    "require-dev": {
+        "guzzle/guzzle": "dev-master",
+        "phpunit/phpunit": "^4.0"
+    },
+    "require": {
+        "guzzle/guzzle": "dev-master",
+        "phpunit/phpunit": "^4.0",
+        "guzzlehttp/guzzle": "^6.0",
+        "phpmailer/phpmailer": "^6.7"
+    },
+    "config": {
+        "platform-check": false
+    }
+}
