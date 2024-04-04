@@ -55,5 +55,9 @@ Altere a função envia_email nos arquivos conexao.php e atualiza-curriculo.php
 - Servidor Xamp com php versão 7.4 + <br>
 - Composer: versão 1.7.2
 - Mysql
+
+## Estrutura do banco
+Criei scripts para a criação do banco de dados para isso insira os valores para conexao com o mysql nos aquivos config.ini em seguida remova o arquivo .htaccess da parta scripts banco e com o apache e mysql em execução execite o script versionamento-banco.php exemplo:
+http://127.0.0.1/gestao%20de%20curriculos/versionamento-banco.php esse script cria´ra toda a estrutura de tabelas no banco em seguida execute o script da mesma forma query_insert_into_usuario.php esse criará um usuário para acessara  aplicação 
 ## Sugestões de modificações futuras 
 - Colocar a aplicação no modelo MVC separando o back-end do front-end
